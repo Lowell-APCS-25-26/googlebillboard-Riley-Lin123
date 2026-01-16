@@ -18,8 +18,8 @@ public class GoogleBillboard {
         // Write your code here.
         for (int i = 0; i < n.length()-10; i++){
             
-            if (isPrime(Long.parseLong(n.substring(0,10))) == true){
-                return Long.parseLong(n.substring(0,10));
+            if (isPrime(Long.parseLong(n.substring(i,i+10))) == true){
+                return Long.parseLong(n.substring(i,i+10));
             } 
         }
         return -1;
